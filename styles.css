@@ -1,0 +1,270 @@
+/*Estilo general*/
+*{
+    box-sizing: border-box;  
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}  
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*Menu de navegacion*/ 
+nav{  
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+    height: 80px;
+    justify-content: space-between;
+    padding: 10px 54px;
+    width: 100%;
+}  
+.logo{
+    margin-left: 95px;
+    width: 90px;
+}
+.logo img{
+    width: 100%;
+}
+.menu-navigation{
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;   
+}
+.menu-navigation li{
+    margin: 0 15px;  
+}
+.menu-navigation li a{ 
+   color: #18121a;  
+}
+.menu-navigation a:hover{ 
+    color: #FEA500; 
+}
+.btn-log{
+    border-radius: 20px;  
+    background: #FFE2AE;  
+    margin-right: 95px;
+    padding: 12px 25px;
+} 
+.btn-log a{ 
+    color: #18121a;
+}  
+/*Seccion banner*/ 
+.content-primary{ 
+     
+    align-items: center;
+    display: flex;   
+    justify-content: center;
+    margin-top: 30px;   
+    padding: 10px 10px;  
+    width: 100%; 
+} 
+.container-description{
+    align-items: center; 
+    display: flex; 
+    justify-content: center;  
+    width: 85%;
+    
+}
+.description-text{ 
+    flex-basis: 60%;
+    padding: 20px 40px;  
+    width: 100%;
+} 
+.description-text > h1{ 
+    font-size: 39px; 
+    line-height: 52px;
+    text-decoration-line: underline;
+    text-underline-position: under;
+} 
+.description-text > h1 span{  
+    color: #FEA500;
+    font-size: 39px; 
+    text-decoration-line:underline;
+}
+.description-text p{ 
+    color: #18121a;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: left;
+} 
+.img-background{
+    width: 40%;  
+}
+.img-background img{
+    height: 325px;  
+    margin-bottom: 80px;
+    margin-left: -105px; 
+    width: 115%; 
+} 
+/*Form background*/ /*
+.background-form img{
+    height: 470px; 
+    position: absolute;
+    margin-left: -400px;
+    margin-top: -350px;
+    width: 505px; 
+    z-index: -1;
+    /*background-color: #FEA500; 
+    margin-top: -280px;
+    margin-left: 930px;
+    border-radius: 60px 120px 180px 150px;
+    transform: rotate(48deg); 
+    position: absolute;
+    z-index: -1; 
+} */
+
+/*Form.background-form*/
+.background-form{
+    width: 365px;
+    height: 600px;
+    background-color: #FEA500; 
+    margin-top: -280px;
+    margin-left: 930px;
+    border-radius: 60px 120px 180px 150px;
+    transform: rotate(48deg); 
+    position: absolute;
+    z-index: -1; 
+ 
+} 
+
+/*Botones*/ 
+.btns{ 
+    align-items: center;     
+    display: flex;
+    margin-top: 45px;
+    width: 100%;
+} 
+.btns a{  
+    border-radius: 10px;  
+    padding: 12px 20px;
+} 
+.btn-primario{ 
+    color:white;
+    background: #FEA500; 
+    margin-right: 25px;  
+} 
+.btn-secundario{
+    display: flex; 
+}  
+.btn-secundario a{
+    color: #18121a;
+    font-weight: 600;
+    margin-left: -25px;
+}
+.play-watch{ 
+    align-items: center;
+    background-color: #FEA500;
+    border-radius: 20px; 
+    color: #FEA500;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    padding: 10px;
+    margin: auto 8px;
+    width: 30px;
+} 
+.circle-half{ 
+    align-items: center;
+    background-color: transparent;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    border-right: 3px solid transparent;
+    border-top: 3px solid transparent; 
+    display: flex;
+    height: 25px;
+    justify-content: center; 
+    padding: 10px;
+    transform: rotate(50deg); 
+    width: 25px;
+}  
+.bck-play{
+    align-items: center;
+    background-color: #FEA500;
+    border-color:  transparent transparent transparent #0f0c0c;  
+    border-width: 8px  3px 8px 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+    margin-top: -6px;
+    position: absolute;
+    transform: rotate(-50deg); 
+    z-index: -1;
+}  
+.play{  
+    background-color: transparent;
+    border-color:  transparent transparent transparent #fff; 
+    border-width: 4px  0px 4px 5px;
+    box-sizing: border-box;
+    margin-left: 2px;
+    margin-top: -3px;
+    position: absolute;
+    transform: rotate(-50deg); 
+    z-index: 1;
+}  
+/*Fecha de viajes*/ 
+.container-travel{ 
+    display: flex; 
+    justify-content: space-around;  
+    margin:25px auto;
+    margin-bottom: 50px; 
+    margin-top: -15px;
+    width: 81%;
+}
+.description-travel{
+    background-color: #FCEFDC;
+    border: 1px solid #FEA500; 
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;  
+    height: 20%; 
+    padding: 10px; 
+    width: 29%; 
+} 
+.img-travel img{
+    height: 75px; 
+    margin-left: 20px; 
+    margin-right: 40px; 
+    margin-top: 30px;
+    width: 75px; 
+} 
+.description-travel p{
+    color: #31302C;
+    font-size: 10px;
+    font-weight: 500;
+    margin-right:16px;
+    margin-top: 5px;
+} 
+.city{
+    color: #31302C;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0px;   
+} 
+.date{
+    font-weight: bold; 
+}
+.btn-book{ 
+    align-items: center;
+    color: #fff;
+    background-color: #FEA500;  
+    border-radius: 15px;  
+    display: flex;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 25%; 
+    margin-left: 65px;/*ml duplicado*/
+    margin-top: 15px;
+    padding: 10px 35px; 
+    justify-content: center; 
+    width: 50%;
+}
+/*Bayardo Romero*/ 
